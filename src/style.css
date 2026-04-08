@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@source "./index.html";
+
+@theme {
+  --font-sans: "Open Sans", sans-serif;
+  --font-lora: "Lora", serif;
+
+  --color-accent: #2F70D9;
+  --color-textmain: #686868;
+  --color-cta: #D95845;
+  --color-darkbg: #282828;
+
+  --shadow-soft: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  --shadow-card: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
